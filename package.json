@@ -1,7 +1,7 @@
 {
   "name": "git-add",
   "version": "0.0.1",
-  "description": "procelain command to add files to git",
+  "description": "Add file contents to the index",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
