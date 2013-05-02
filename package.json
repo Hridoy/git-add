@@ -1,0 +1,25 @@
+{
+  "name": "git-add",
+  "version": "0.0.1",
+  "description": "procelain command to add files to git",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maks/git-add.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Maksim Lin <maks@manichord.com>",
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "dependencies": {    
+      "git-index" : "*",
+      "git-object-hash",
+      "git-to-js",
+      
+  }
+}
